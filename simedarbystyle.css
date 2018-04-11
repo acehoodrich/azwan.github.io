@@ -1,0 +1,363 @@
+body {
+  font-family: avenir;
+  line-height: 1.4em;
+  margin:0;
+}
+
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+	text-align: center;
+}
+
+article {
+	margin:0;
+}
+
+.menubar {
+	background-color: #060932;
+	padding: 2px 0 2px 0px;
+	position: fixed;
+	width: 100%;
+}
+
+.chatbox {
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	left: 37%;
+	bottom: 0.2%;
+	width: 100%;
+}
+
+.mainlogo {
+	width: 300px;
+	height: 46.66px;
+	padding: 10px 0 10px 0;
+}
+
+.uvp {
+	margin: 100px 10px 100px 10px;
+	max-width: 400px;
+}
+
+.headerbg {
+	background-image: url(SimeDarby_BG.jpg);
+	padding: 100px 0 250px 0;
+
+}
+
+.subheader {
+	font-family: "avenir";
+	font-size: 20px;
+	color: white;
+	max-width: 400px;
+
+}
+
+.whatsincluded {
+	max-width: 800px;
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+
+.services {
+
+	display: flex;
+	flex-direction: row;
+	justify-content:  center;
+}
+
+.cleaning {
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+	margin:0;
+	max-width: 300px;
+
+}
+
+.movers {
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+	margin:0;
+	max-width: 300px;
+}
+
+.cleaningsection {
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 150px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	
+}
+
+.movingsection {
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 150px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.cleaningdescription {
+	/*border: 1px solid blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content:  left;
+	box-sizing: border-box;
+	width: 50%;
+
+}
+
+.movingdescription {
+	/*border: 1px solid blue;*/
+	display: flex;
+	flex-direction: column;
+	justify-content:  left;
+	box-sizing: border-box;
+	width: 50%;
+
+}
+
+.shining {
+ 	font-size: 20px;
+ 	color: #daa431;
+ 	font-family: "avenir";
+}
+
+.swift {
+ 	font-size: 20px;
+ 	color: #daa431;
+ 	font-family: "avenir";
+}
+
+.whatscleaning {
+	max-width: 450px;
+	padding: 0 0 0 0;
+}
+
+.whatsmoving {
+	max-width: 450px;
+	padding: 0 0 0 0;
+}
+
+.cleaningicon {
+	margin-bottom: 15px;
+}
+
+.movingicon {
+	margin-bottom: 15px;
+}
+
+.tandc {
+	display: flex;
+	flex-direction: row;
+	justify-content:  left;
+	box-sizing: border-box;
+}
+
+.tandccolumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	box-sizing: border-box;
+	padding: 20px 20px 20px 20px;
+	box-sizing: border-box;
+	width: 50%;
+}
+
+.tandccolumn2 {
+	display: flex;
+	flex-direction: row;
+	justify-content:  left;
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	margin-left:0;
+	/*width: 50%;*/
+}
+
+.serviceimage {
+	/*border: 1px solid blue;	*/
+	padding left: 40px;
+	padding-right: 40px;
+}
+
+.descriptionicon {
+	padding-right: 20px;
+	justify-content: left;
+
+}
+
+#iconsize1 {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#iconsize2 {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#iconsize3 {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#iconsize4 {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+
+.horizontalline {
+	max-width: 1200px;
+}
+
+.CTA {
+	background-image: url(SimeDarby_CTABG.jpg);
+	padding: 100px 0 250px 0;
+
+}
+
+.sections {
+	padding: 10px 0 100px 0;
+}
+
+.whoweare {
+	max-width: 800px;
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+
+.youtube {
+	/*width: 100%;*/
+	justify-content: center;
+	padding: 50px 0 100px 0;
+}
+
+.footer {
+	background-color: #392f22;
+	padding: 100px 0 20px 0;
+	width: 100%;
+}
+
+.footerbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.copyright {
+	color: #ffffff;
+	padding-top: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.bottom {
+	color: #ffffff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.footerline {
+	color: white;
+}
+
+.footerblock1 {
+	color: white;
+	padding: 0 20px 0 20px;
+	max-width: 400px;
+}
+
+.footerblock2 {
+	color: white;
+	padding: 0 20px 0 20px;
+	max-width: 400px;
+}
+
+.footerblock3 {
+	color: white;
+	padding: 0 20px 0 20px;
+	max-width: 400px;
+}
+
+.footeritem {
+	color: white;
+}
+
+.footerlogo {
+	padding: 0 0 30px 0;
+}
+
+
+h2 {
+	color: #3b3a3b;
+	font-family: "avenir", "Muli", "Open Sans";
+	text-align: center;
+	font-size: 32px;
+}
+
+header {
+	
+}
+
+p {
+	font-family: "avenir", "Muli", "Open Sans";
+}
+
+h1 {
+	font-family: "avenir", "Muli", "Open Sans";
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	max-width: 400px;
+	line-height: 45px;
+}
+
+h5 {
+	font-family: "avenir", "Muli", "Open Sans";
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #faba32;
+	vertical-align: top;
+	line-height: 24px;
+	margin: 0;
+
+}
+
+h4 {
+	font-family: "avenir", "Muli", "Open Sans";
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color: #3b3a3b;
+	line-height: 45px;
+	margin: 0;
+
+}
+
+h6 {
+	font-family: "avenir", "Muli", "Open Sans";
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 24px;
+	margin: 0;
+}
